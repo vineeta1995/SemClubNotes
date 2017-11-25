@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vineeta.clubnotes">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.LoginActivity" />
+        <activity android:name=".View.QrScanActivity" />
+        <activity android:name=".View.RecorderActivity" />
+        <activity android:name=".View.RegisterActivity" />
+        <activity android:name=".View.CameraActivity" />
+        <activity android:name=".View.TextActivity" />
+        <activity
+            android:name=".View.TextNote"
+            android:label="@string/title_activity_text_note"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".View.ClickActivity" />
+        <activity android:name=".View.AudioActivity" />
+        <activity android:name=".View.ViewActivity" />
+        <activity android:name=".View.AudioStartActivity" />
+        <activity android:name=".View.AudioOld" />
+        <activity android:name=".View.ClickStartActivity" />
+        <activity android:name=".View.TextStartActivity" />
+        <activity android:name=".View.QrScanRecorderActivity" />
+        <activity android:name=".View.ClickOldActivity" />
+        <activity android:name=".View.RecorderPlayActivity" />
+        <activity android:name=".View.TextOldActivity" />
+        <activity android:name=".View.AudioPlayActivity" />
+        <activity android:name=".View.HomeActivity"></activity>
+    </application>
+
+</manifest>

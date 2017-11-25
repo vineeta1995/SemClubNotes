@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.vineeta.clubnotes.View.AudioStartActivity">
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/newFolder"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic|bold"
+        android:background="#66BB6A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_folder"
+        android:onClick="newFolder"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="258dp" />
+    <Button
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic|bold"
+        android:background="#26C6DA"
+        android:id="@+id/oldFolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/old_folder"
+        android:onClick="oldFolder"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic|bold"
+        android:background="#E57373"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:onClick="play"
+        android:text="@string/play_audio" />
+</LinearLayout>

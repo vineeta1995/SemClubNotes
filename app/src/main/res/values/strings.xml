@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Club Notes</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="scan_code">Scan Code</string>
+    <string name="save">Save</string>
+    <string name="stop">Stop</string>
+    <string name="record">Record</string>
+    <string name="register">Register</string>
+    <string name="institute">Institute</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="email_address">Email Address</string>
+    <string name="name">Name</string>
+    <string name="play">Play</string>
+    <string name="stop_playing_recording">Stop Playing Recording</string>
+    <string name="view">View</string>
+    <string name="title_activity_text_note">TextNote</string>
+    <string name="submit">submit</string>
+    <string name="create_notes">Create Notes</string>
+    <string name="click">Click</string>
+    <string name="title_activity_audio">AudioActivity</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="enter_folder_name">Enter Folder Name</string>
+    <string name="next">Next</string>
+    <string name="old_folder">Old Folder</string>
+    <string name="new_folder">New Folder</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="or">OR</string>
+    <string name="club_notes">CLUB NOTES</string>
+    <string name="enter_note_title">Enter Note Title</string>
+    <string name="title_activity_text_note_old">TextNoteOldActivity</string>
+</resources>
